@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    //configura la versión del lenguaje JavaScript en que se tiene que compilar e incluya declaraciones de biblioteca compatibles.
+    "target": "es2015", 
+    //especifica que código de módulo sera generado.
+    "module": "commonjs", 
+    //especifica la carpeta de salida para los archivos emitidos.
+    "outDir": "./dist",   
+    //especifica la carpeta raíz
+    "rootDir": "./src", 
+    //si strict esta a true, indica que habilita todas las opciones estrictas de verificación de tipos de datos
+    "strict": true,
+    //guarda los archivos .tsbuildinfo para permitir la compilación incremental de los proyectos.
+    "incremental": true,
+    //especifica la carpeta para estos archivos de compilación incremental
+    "tsBuildInfoFile": "./buildcache",
+  }
+}
